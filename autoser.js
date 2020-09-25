@@ -14,12 +14,6 @@
 			e.preventDefault();
 			console.log(e);
 			$('.widget-gallery-gallery-2:eq('+y+') [data-ux="GridCell"]', window.parent.document).trigger('click');
-		});	
+		});
 	});
-	
-	$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document).empty();
-	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680 [data-ux="Element"]:first-child', window.parent.document)
-	.appendTo($('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document));
-	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
-	$('.widget-introduction-introduction-1 .carousel-track').removeAttr('style');
 })(jQuery);
