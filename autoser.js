@@ -10,10 +10,4 @@
 				})).join(' ');
 			});
 		});
-		$('.widget-content-content-9 #btn-'+y, window.parent.document).on('click', window.parent.document,function(e){
-			e.preventDefault();
-			console.log(e);
-			$('.widget-gallery-gallery-2:eq('+y+') [data-ux="GridCell"]', window.parent.document).trigger('click');
-		});
-	});
 })(jQuery);
