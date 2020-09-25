@@ -1,9 +1,10 @@
 (function($){
-	$(".widget-html-html-1 iframe",window.parent.document).ready(function(){
+	$(".widget-html-html-1 iframe",window.parent.document).ready(function({
+		console.log('loaded jQuery');
 	var url = "https://cedfer2.github.io/farmacos/";
 	var img = {0:["a1", "a2", "a3","a4"], 1:["b1", "b2", "b3","b4"], 2:["c1", "c2", "c3","c4"]};
 	$("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).each(function(y,t){
-		$(t).before('<div class=wrappinner><div id=bricks-'+y+' class="galeripek ImgContPa'+y+'"></div></div><div class=b><a href="#" id="btn-'+y+'" phath='+y+' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div>');
+		$(t).before('<div class=wrappinner><div id=bricks-'+y+' class="galeripek ImgContPa'+y+'"></div></div><div class=b phath='+y+'><a href="#" id="btn-'+y+'" phath='+y+' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div>');
 			$('.ImgContPa'+y, window.parent.document).each(function(index,elemento){
 				$(elemento).append(function(){
 					return ($.map(img[y], function(ell,ind) {
@@ -19,6 +20,8 @@
 		});
 	$('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document).empty();
 	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680 [data-ux="Element"]:first-child', window.parent.document).appendTo($('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document));
+	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
 	$('#69f49627-4d28-4287-b65c-a11ca61db769 .carousel-track').removeAttr('style');
+	console.log('finnis jquery');
 	});
 })(jQuery);
