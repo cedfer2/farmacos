@@ -13,7 +13,7 @@
 			$('#f3debd43-7451-4d00-8ba7-80cea5303013 #btn-'+y, window.parent.document).on('click', window.parent.document,function(e){
 				e.preventDefault();
 				$('.widget-gallery-gallery-2:eq('+$(e.target).attr('phath')+') [data-ux="GridCell"]', window.parent.document).trigger('click');
-				console.log(e);
+				console.log($(e.target).attr('phath'));
 			});
 		});
 	$('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document).empty();
