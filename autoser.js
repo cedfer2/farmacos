@@ -1,5 +1,5 @@
 (function($){
-	$(".widget-html-html-1 iframe",window.parent.document).ready(function({
+	$(".widget-html-html-1 iframe",window.parent.document).ready(function(){
 	var url = "https://cedfer2.github.io/farmacos/";
 	var img = {0:["a1", "a2", "a3","a4"], 1:["b1", "b2", "b3","b4"], 2:["c1", "c2", "c3","c4"]};
 	$("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).each(function(y,t){
