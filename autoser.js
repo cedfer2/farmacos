@@ -1,6 +1,6 @@
 (function($){
-	$(".widget-html-html-1 iframe",window.parent.document).ready(function({
-		console.log('loaded jQuery');
+	$(".widget-html-html-1 iframe",window.parent.document).ready(function(){
+	console.log('loaded jQuery');
 	var url = "https://cedfer2.github.io/farmacos/";
 	var img = {0:["a1", "a2", "a3","a4"], 1:["b1", "b2", "b3","b4"], 2:["c1", "c2", "c3","c4"]};
 	$("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).each(function(y,t){
@@ -14,8 +14,8 @@
 			});
 			$('#f3debd43-7451-4d00-8ba7-80cea5303013 #btn-'+y, window.parent.document).on('click', window.parent.document,function(e){
 				e.preventDefault();
-				$('.widget-gallery-gallery-2:eq('+$(e.target).attr('phath')+') [data-ux="GridCell"]', window.parent.document).trigger('click');
-				console.log($(e.target).attr('phath'));
+				$('.widget-gallery-gallery-2:eq('+$(e.target).closest('phath').attr('phath')+') [data-ux="GridCell"]', window.parent.document).trigger('click');
+				console.log($(e.target).closest('phath').attr('phath'));
 			});
 		});
 	$('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document).empty();
