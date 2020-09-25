@@ -11,7 +11,7 @@
 			$('.ImgContPa'+y, window.parent.document).each(function(index,elemento){
 				$(elemento).append(function(){
 					return ($.map(img[y], function(ell,ind) {
-						'<div class=ImgContainer data-ux=GridCell data-aid=GALLERY_IMAGE'+y+'_CELL_RENDERED><img src="'+url+ell+'.svg" alt=image'+ind+'data-ux=Image data-aid=GALLERY_IMAGE'+ind+'_RENDERED class="x-el x-el-img c2-1 c2-2 c2-1w c2-1h c2-2b c2-2c c2-1q c2-1s c2-18 c2-f c2-2d c2-3 c2-4 c2-5 c2-6 c2-7 c2-8"></div>';
+						return '<div class=ImgContainer data-ux=GridCell data-aid=GALLERY_IMAGE'+y+'_CELL_RENDERED><img src="'+url+ell+'.svg" alt=image'+ind+'data-ux=Image data-aid=GALLERY_IMAGE'+ind+'_RENDERED class="x-el x-el-img c2-1 c2-2 c2-1w c2-1h c2-2b c2-2c c2-1q c2-1s c2-18 c2-f c2-2d c2-3 c2-4 c2-5 c2-6 c2-7 c2-8"></div>';
 						})).join(' ');
 				});
 			});
