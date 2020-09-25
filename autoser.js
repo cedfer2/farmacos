@@ -18,7 +18,7 @@
 				console.log($(e.target).closest('[phath]').attr('phath'));
 			});
 		});
-	$('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document).empty();
+
 	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680 [data-ux="Element"]:first-child', window.parent.document).appendTo($('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document));
 	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
 	$('#69f49627-4d28-4287-b65c-a11ca61db769 .carousel-track').removeAttr('style');
