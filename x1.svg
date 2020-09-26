@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="600px" height="300px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 288 144"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#F20E16}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="144.196" y1="144.197" x2="144.196" y2="0">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E0E0E0"/>
+   <stop offset="0.109804" style="stop-opacity:1; stop-color:#EFEFEF"/>
+   <stop offset="0.470588" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2486051128992">
+   <path class="fil0" d="M288 0c0,80 -64,144 -144,144 -79,0 -144,-64 -144,-144l288 0z"/>
+   <path class="fil1" d="M130 107c-1,-1 -5,-7 -6,-9l-13 -1 12 -21c5,2 5,-1 7,3 5,10 4,7 11,5l1 3c-1,2 -10,18 -12,20zm28 -50c0,9 -14,18 -24,8 -9,-8 -2,-24 9,-24 11,0 15,7 15,16zm-12 -19c-7,0 -10,1 -15,6 -10,10 -3,29 13,29 10,0 17,-7 18,-17 0,-11 -9,-18 -16,-18zm-3 44c4,2 9,6 12,3 4,-3 2,-8 9,-8 2,0 12,19 13,20l-13 1c-1,2 -5,7 -5,10 -2,-1 -14,-23 -16,-26zm-21 -44c4,-1 10,1 13,-10 3,1 6,4 9,4 3,0 6,-3 9,-3 5,6 2,9 15,10 -1,2 -2,8 -1,10 1,2 4,5 5,7 -6,9 -6,0 -5,17 -12,1 -9,2 -14,9 -3,0 -7,-3 -9,-3 -2,0 -6,3 -9,3 -5,-10 -3,-7 -14,-10 3,-14 0,-9 -5,-17 1,-2 6,-5 6,-8 0,-4 -2,-6 0,-9zm45 63c10,0 17,2 14,-4 -17,-29 -10,-17 -10,-27 -1,-5 -2,-5 1,-8 1,-2 4,-3 4,-6 0,-3 -3,-5 -4,-6 -3,-3 -2,-3 -1,-8 1,-10 -6,-5 -11,-9 -4,-3 -2,-11 -11,-7 -9,5 -6,-2 -15,-1 -1,1 -5,7 -5,8 -3,2 -9,1 -10,3 -3,3 0,8 -1,11 -1,2 -4,5 -6,7 0,6 6,6 6,10 1,5 -3,5 1,11 -1,3 -5,10 -7,13 -9,16 -8,13 10,13 8,14 8,15 12,7 2,-3 8,-15 10,-17 4,5 11,20 14,22 4,-1 5,-10 9,-12z"/>
+  </g>
+ </g>
+</svg>
