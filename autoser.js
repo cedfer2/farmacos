@@ -1,5 +1,5 @@
 (function($) {
-    $(".widget-html-html-1 iframe", window.parent.document).before('<script src=https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/lib/js/lightgallery.min.js></script>')
+    $(".widget-html-html-1 iframe", window.parent.document).before('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/lib/js/lightgallery.min.js"></script>')
     $(".widget-html-html-1 iframe", window.parent.document).ready(function() {
         console.log('loaded jQuery');
         $(window.parent.document).ready(function() {
