@@ -1,5 +1,4 @@
 (function($) {
-    $(".widget-html-html-1 iframe", window.parent.document).before('<script type="text/javascript" src="http://www.jsdelivr.com/projects/lightgallery.js"></script>')
     $(".widget-html-html-1 iframe", window.parent.document).ready(function() {
         console.log('loaded jQuery');
         $(window.parent.document).ready(function() {
