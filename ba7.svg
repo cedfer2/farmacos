@@ -5,6 +5,7 @@
 viewBox="0 0 1366 504"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
+  <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="https://cedfer2.github.io/farmacos/helbeticaBQ.css" type="text/css"/>
   <style type="text/css">
    <![CDATA[
     .str0 {stroke:white;stroke-width:2.95276}
