@@ -1,6 +1,6 @@
 (function($) {
     $(".widget-html-html-1 iframe", window.parent.document).ready(function() {
-        $("head", window.parent.document).append('<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/lib/js/lightgallery.min.js"></script>');
+        $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/dist/css/lightgallery.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/dist/css/lg-transitions.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/dist/css/lg-fb-comment-box.min.css"><script type=text/javascript src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.3.1/dist/js/lightgallery.min.js"></script>');
         console.log('loaded jQuery');
         $(window.parent.document).ready(function() {
             var url = "https://cedfer2.github.io/farmacos/";
