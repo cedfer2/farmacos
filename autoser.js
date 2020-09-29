@@ -34,27 +34,4 @@
             console.log('finnis jquery');
         });
     });
-    $(document).ready(function($) {
-        $('#btn-0', window.parent.document).magnificPopup({
-            prependTo: $('body', window.parent.document),
-            type: 'image',
-            verticalFit: false,
-            items:{src: 'https://cedfer2.github.io/farmacos/higiene.svg'},
-            callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}
-        });
-        $('#btn-1', window.parent.document).magnificPopup({
-            prependTo: $('body', window.parent.document),
-            type: 'image',
-            verticalFit: false,
-            items:{src: 'https://cedfer2.github.io/farmacos/abarrote.svg'},
-            callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}
-         });
-         $('#btn-2', window.parent.document).magnificPopup({
-            prependTo: $('body', window.parent.document),
-            type: 'image',
-            verticalFit: false,
-            items:{src: 'https://cedfer2.github.io/farmacos/limpieza.svg'},
-            callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}
-        });    
-});
 })(jQuery);
