@@ -29,5 +29,8 @@
                 $('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
                 $('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
             }
-            console.log('finenn jquery');
+        $('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image', items:{src:'https://cedfer2.github.io/farmacos/higiene.svg'}});
+        $('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image', items:{src:'https://cedfer2.github.io/farmacos/abarrote.svg'}});
+        $('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image', items:{src:'https://cedfer2.github.io/farmacos/limpieza.svg'}});
+        console.log('finunnz jquery');
 })(jQuery);
