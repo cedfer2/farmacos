@@ -22,9 +22,4 @@ $.getJSON(url+json)
     var err = textStatus + ", " + error;
     console.log( "Request Failed: " + err );
 });
-$('.sppb-btn', window.parent.document).on('click',function(e){
-	e.preventDefault();
-	$('.widget-gallery:eq("'+$(e.target).attr("phath")+'") .dim', window.parent.document).trigger('click');
-	console.log($('.widget-gallery:eq("'+$(e.target).attr("phath")+'") .dim', window.parent.document));
-});
 })(jQuery);
