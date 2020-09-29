@@ -9,7 +9,7 @@
                 2: ["c1", "c2", "c3", "c4"]
             };
             $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).each(function(y, t) {
-                $(t).before('<div class=wrappinner><div id=bricks-' + y + ' class="galeripek ImgContPa' + y + '"></div></div><div class=b phath=' + y + '><a href="#" id="btn-' + y + '" phath=' + y + ' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div>');
+                $(t).before('<div class=wrappinner><div id=bricks-' + y + ' class="galeripek ImgContPa' + y + '"></div></div><div class=b phath=' + y + '><a id="btn-' + y + '" phath=' + y + ' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div>');
                 $('#bricks-' + y, window.parent.document).each(function(index, elemento) {
                     if ($($(elemento).children()).length < 1) {
                         $(elemento).append(function() {
