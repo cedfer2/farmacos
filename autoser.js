@@ -1,6 +1,6 @@
 (function($) {
     $(".widget-html-html-1 iframe", window.parent.document).ready(function() {
-        $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.2/simple-lightbox.min.css"><script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.2/simple-lightbox.js"></script><script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.2/simple-lightbox.jquery.min.js"></script><script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.2/simple-lightbox.modules.min.js"></script>');
+        $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/simpleLightbox.min.css"><script type=text/javascript src="https://cedfer2.github.io/farmacos/simpleLightbox.min.js"></script>');
         console.log('loaded jQuery');
         $(window.parent.document).ready(function() {
             var url = "https://cedfer2.github.io/farmacos/";
