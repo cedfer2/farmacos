@@ -31,9 +31,9 @@
                 $('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
                 $('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
             }
-            $('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/higiene.svg'}, callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}});
-            $('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/abarrote.svg'}, callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}});
-            $('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/limpieza.svg'}, callbacks: {imageLoadComplete: function(){this.content.find('img').removeAttr('style');}}});
+            $('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/higiene.svg'}});
+            $('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/abarrote.svg'}});
+            $('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/limpieza.svg'}});
             console.log('finni jquery');
         });
     });
