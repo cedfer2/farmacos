@@ -22,4 +22,11 @@ $.getJSON(url+json)
     var err = textStatus + ", " + error;
     console.log( "Request Failed: " + err );
 });
+$('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document), items: [ { src: 'https://cedfer2.github.io/farmacos/medicamentos/0_0.svg'},{ src: 'https://cedfer2.github.io/farmacos/medicamentos/0_1.svg' }, { src: 'https://cedfer2.github.io/farmacos/medicamentos/0_2.svg'}, { src: 'https://cedfer2.github.io/farmacos/medicamentos/0_3.svg'}],gallery: {enabled: true},type: 'image'});
+$('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/1.svg' }, type: 'image'});
+$('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/2.svg' }, type: 'image'});
+$('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/3.svg' }, type: 'image'});
+$('#btn-3', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/4.svg' }, type: 'image'});
+$('#btn-4', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/5.svg' }, type: 'image'});
+$('#btn-5', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/5.svg' }, type: 'image'});
 })(jQuery);
