@@ -31,6 +31,13 @@
                 $('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
                 $('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
             }
+            $('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/higiene.svg'},callbacks: {imageLoadComplete: patch}});
+            $('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/abarrote.svg'},callbacks: {imageLoadComplete: patch}});
+            $('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),type: 'image',verticalFit: false,items:{src: 'https://cedfer2.github.io/farmacos/limpieza.svg'},callbacks: {imageLoadComplete: patch}});
+function patch() {
+	var img = this.content.find('img');
+	img.removeAttr('style');
+}
             console.log('finnis jquery');
         });
     });
