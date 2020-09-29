@@ -6,6 +6,7 @@ var img = {
 1: ["b1", "b2", "b3", "b4"],
 2: ["c1", "c2", "c3", "c4"]
 };
+$('.widget-header-header-9 .x-el-nav a[href*="facebook.com/"',window.parent.document).text('');
 $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).each(function(y, t) {
 	if ($('#bricks-' + y, window.parent.document).length<1){
 		$(t).before('<div class=wrappinner><div id=bricks-' + y + ' class="galeripek ImgContPa' + y + '"></div></div><div class="c"><div class=b phath=' + y + '><a href="#" id="btn-' + y + '" phath=' + y + ' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div></div>');
