@@ -1,6 +1,6 @@
 (function($) {
     $(".widget-html-html-1 iframe", window.parent.document).ready(function() {
-        $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/simpleLightbox.min.css"><script type=text/javascript src="https://cedfer2.github.io/farmacos/simpleLightbox.min.js"></script>');
+        $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css"><script type=text/javascript src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>');
         console.log('loaded jQuery');
         $(window.parent.document).ready(function() {
             var url = "https://cedfer2.github.io/farmacos/";
