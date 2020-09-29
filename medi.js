@@ -28,4 +28,5 @@ $('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.p
 $('#btn-3', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/3.svg' }, type: 'image'});
 $('#btn-4', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/4.svg' }, type: 'image'});
 $('#btn-5', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/medicamentos/5.svg' }, type: 'image'});
+$('.widget-content-content-11 [data-ux="Image"]').removeAttr('srcset').attr('src', 'https://cedfer2.github.io/farmacos/ba7.svg');
 })(jQuery);
