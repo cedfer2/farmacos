@@ -1,4 +1,5 @@
 (function() {
+$('.widget-header-header-9 .x-el-nav a[href*="facebook.com/"',window.parent.document).text('');
 $.each($('[data-ux="SectionHeading"] .x-el-span', window.parent.document),function(e,y){
 	if($('#bricks-'+$(y).text().trim(), window.parent.document).length<1){
 		$(y).before('<div id=bricks-'+$(y).text().trim()+' class="galeripek ImgContPa'+$(y).text().trim()+'"></div>')
