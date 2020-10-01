@@ -34,8 +34,8 @@ if ($('#69f49627-4d28-4287-b65c-a11ca61db769 #bs-3', window.parent.document).len
 	$('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
 	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
 }
-$('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/higiene.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap'window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
-$('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/abarrote.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap'window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
-$('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/limpieza.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap'window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
+$('#btn-0', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/higiene.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
+$('#btn-1', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/abarrote.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
+$('#btn-2', window.parent.document).magnificPopup({prependTo: $('body', window.parent.document),items:{	src: 'https://cedfer2.github.io/farmacos/limpieza.svg' }, type: 'image', imageLoadComplete: function() { $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style'); console.log('Image loaded'); }});
 console.log('finonaxi jquery');
 })(jQuery);
