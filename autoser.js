@@ -35,21 +35,25 @@ if ($('#69f49627-4d28-4287-b65c-a11ca61db769 #bs-3', window.parent.document).len
 	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
 }
 
-	$('#btn-0, .GALLERY_IMAGE0_CELL_RENDERED', window.parent.document).magnificPopup({
+	$('#btn-0, .ImgContPa0 [data-aid="GALLERY_IMAGE0_RENDERED"]', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/higiene.svg' }, 
 	type: 'image',
 	open: function() {
 	$('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
-    console.log('Popup is opened');
+    alert('Popup is opened');
   },
 beforeOpen: function() {
-    console.log('Start of popup initialization');
+    alert('Start of popup initialization');
   },
 imageLoadComplete: function() {
     // fires when image in current popup finished loading
     // avaiable since v0.9.0
-    console.log('Image loaded');
+    alert('Image loaded');
+  },
+change: function() {
+    alert('Content changed');
+    alert(this.content); // Direct reference to your popup element
   }
 });
 
