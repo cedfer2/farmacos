@@ -42,6 +42,14 @@ if ($('#69f49627-4d28-4287-b65c-a11ca61db769 #bs-3', window.parent.document).len
 	open: function() {
 	$('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
     console.log('Popup is opened');
+  },
+beforeOpen: function() {
+    console.log('Start of popup initialization');
+  },
+imageLoadComplete: function() {
+    // fires when image in current popup finished loading
+    // avaiable since v0.9.0
+    console.log('Image loaded');
   }
 });
 
@@ -64,5 +72,5 @@ $('#btn-2', window.parent.document).magnificPopup({
 
 	
 	
-	console.log('finanaxi jquery');
+	console.log('fananaxi jquery');
 })(jQuery);
