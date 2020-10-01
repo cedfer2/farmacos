@@ -64,5 +64,5 @@ $('#btn-2', window.parent.document).magnificPopup({
 
 	
 	
-	console.log('finonaxi jquery');
+	console.log('finanaxi jquery');
 })(jQuery);
