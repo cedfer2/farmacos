@@ -26,14 +26,7 @@ $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]",
 		});
 	}
 });
-if ($('#69f49627-4d28-4287-b65c-a11ca61db769 #bs-3', window.parent.document).length < 1) {
-	console.log('removed');
-	$('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document).children('[data-ux="Block"]').remove();
-	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680 #bs-3', window.parent.document).addClass('movedCarr').clone().appendTo($('#69f49627-4d28-4287-b65c-a11ca61db769 [data-ux="GridCell"]:first-child', window.parent.document));
-	$('#bs-3 .carousel-track', window.parent.document).removeAttr('style');
-	$('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
-	$('#395fe572-d3cf-4c61-bc88-c50a78e0f680', window.parent.document).remove();
-}
+
 	$('#btn-0, .imgcel0', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/higiene.svg' },
