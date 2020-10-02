@@ -41,7 +41,7 @@ if ($('#69f49627-4d28-4287-b65c-a11ca61db769 #bs-3', window.parent.document).len
 }).on('mfpOpen', function() {
   $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 });
-$('#btn-1', window.parent.document).magnificPopup({
+$('#btn-1, .imgcel1', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/abarrote.svg' },
 	type: 'image'
@@ -49,7 +49,7 @@ $('#btn-1', window.parent.document).magnificPopup({
   $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 });
 
-$('#btn-2', window.parent.document).magnificPopup({
+$('#btn-2, .imgcel2', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/limpieza.svg' }, 
 	type: 'image'
