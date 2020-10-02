@@ -35,7 +35,7 @@ $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]",
 		$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child, .widget-gallery-gallery-3', window.parent.document).children('[data-ux="Block"]').hide();		
 	});
 }else{
-	console.log($('#bs-3', window.parent.document););
+	console.log($('#bs-3', window.parent.document));
 }
 
 	$('#btn-0, .imgcel0', window.parent.document).magnificPopup({
