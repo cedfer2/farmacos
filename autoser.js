@@ -26,6 +26,17 @@ $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]",
 		});
 	}
 });
+	if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).length < 1)
+{
+	$('.widget-gallery-gallery-3 #bs-3',window.parent.document).ready(function($) {
+		$('.widget-gallery-gallery-3 #bs-3', window.parent.document).appendTo($('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document));
+		$('#bs-3 .carousel-track', window.parent.document).removeAttr('style');
+		$('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
+		$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child, .widget-gallery-gallery-3', window.parent.document).children('[data-ux="Block"]').hide();		
+	});
+}else{
+	console.log($('#bs-3', window.parent.document););
+}
 
 	$('#btn-0, .imgcel0', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
