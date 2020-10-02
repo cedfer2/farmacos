@@ -57,5 +57,5 @@ $('#btn-2', window.parent.document).magnificPopup({
   $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 });
 
-	console.log('faa jquery');
+	console.log('faal jquery');
 })(jQuery);
