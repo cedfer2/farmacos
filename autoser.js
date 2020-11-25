@@ -13,7 +13,7 @@ $('.widget-header [data-aid="HAMBURGER_MENU_LINK"]', window.parent.document).cli
 $('.widget-header [data-ux="CloseIcon"]', window.parent.document).click(function(){$('[data-ux="NavigationDrawer"]', window.parent.document).removeClass('Sandshow');});
 
 $("[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=ContentCardWrapperImage]", window.parent.document).addClass('InserCatImagePop');
-$('#9ed231d9-9989-40b5-b5cc-ca0f6668e16a [data-ux="GridCell"]', window.parent.document).last().addClass('InserCatImagePop');
+$('#9ed231d9-9989-40b5-b5cc-ca0f6668e16a [data-ux="Grid"] > [data-ux="GridCell"]', window.parent.document).last().addClass('InserCatImagePop');
 $(".InserCatImagePop", window.parent.document).each(function(y, t) {
 	if ($('#bricks-' + y, window.parent.document).length<1){
 		$(t).after('<div class=wrappinner><div id=bricks-' + y + ' class="galeripek ImgContPa' + y + '"></div></div><div class="c"><div class=b phath=' + y + '><a href="#" id="btn-' + y + '" phath=' + y + ' class="sppb-btn"><i class="fa fa-lg fa-chevron-down" aria-hidden="true"></i></a></div></div>');
