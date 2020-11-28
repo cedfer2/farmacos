@@ -42,14 +42,14 @@ $(".InserCatImagePop", window.parent.document).each(function(y, t) {
 	console.log($('#bs-3', window.parent.document));
 }
 
-	$('#btn-0, .imgcel0', window.parent.document).magnificPopup({
+	$('.widget-content-content-9 #btn-0, .widget-content-content-9 .imgcel0', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/higiene.svg' },
 	type: 'image'
 }).on('mfpOpen', function() {
   $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 });
-$('#btn-1, .imgcel1', window.parent.document).magnificPopup({
+$('.widget-content-content-9 #btn-1, .widget-content-content-9 .imgcel1', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/abarrote.svg' },
 	type: 'image'
@@ -57,7 +57,7 @@ $('#btn-1, .imgcel1', window.parent.document).magnificPopup({
   $('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 });
 
-$('#btn-2, .imgcel2', window.parent.document).magnificPopup({
+$('.widget-content-content-9 #btn-2, .widget-content-content-9 .imgcel2', window.parent.document).magnificPopup({
 	prependTo: $('body', window.parent.document),
 	items:{	src: 'https://cedfer2.github.io/farmacos/limpieza.svg' }, 
 	type: 'image'
