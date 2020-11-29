@@ -80,6 +80,8 @@ $(".InserCatImagePop", window.parent.document).each(function(y, t) {
 					}).on('mfpOpen', function() {
 						$('.mfp-bg, .mfp-wrap',window.parent.document).removeAttr('style');
 					});
+					console.log('elemento select:', $(elemento));
+					console.log('modalSelect select:', modalImage[y]);
 			} else {
 				console.log("elemento hijo:", $($(elemento).children()));
 			}
