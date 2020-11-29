@@ -33,9 +33,9 @@ if($('#938a81c2-5f0e-4d49-bc7b-6d80829e0c3c .InserCatImagePop', window.parent.do
 		0: [fotodir+"0/0", fotodir+"0/1", fotodir+"0/2", fotodir+"0/3"],
 		1: [fotodir+"1/0", fotodir+"1/1", fotodir+"1/2", fotodir+"1/3"],
 		2: [fotodir+"2/0", fotodir+"2/1", fotodir+"2/2", fotodir+"2/3"],
-		3: [fotodir+"3/0", fotodir+"3/1", fotodir+"3/2", fotodir+"3/3"],
-		4: [fotodir+"4/0", fotodir+"4/1", fotodir+"4/2", fotodir+"4/3"],
-		5: [fotodir+"5/0", fotodir+"5/1", fotodir+"5/2", fotodir+"5/3"],
+		5: [fotodir+"3/0", fotodir+"3/1", fotodir+"3/2", fotodir+"3/3"],
+		3: [fotodir+"4/0", fotodir+"4/1", fotodir+"4/2", fotodir+"4/3"],
+		4: [fotodir+"5/0", fotodir+"5/1", fotodir+"5/2", fotodir+"5/3"],
 	};
 
 
@@ -43,9 +43,9 @@ if($('#938a81c2-5f0e-4d49-bc7b-6d80829e0c3c .InserCatImagePop', window.parent.do
 		0: [{src: url+folder+"0_0.svg"}, {src: url+folder+"0_1.svg"}, {src: url+folder+"0_2.svg"}, {src: url+folder+"0_3.svg"}],
 		1: {src: url+folder+"1.svg"},
 		2: {src: url+folder+"2.svg"},
-		3: {src: url+folder+"3.svg"},
-		4: {src: url+folder+"4.svg"},
-		5: {src: url+folder+"5.svg"}
+		5: {src: url+folder+"3.svg"},
+		3: {src: url+folder+"4.svg"},
+		4: {src: url+folder+"5.svg"}
 	}
 }
 
