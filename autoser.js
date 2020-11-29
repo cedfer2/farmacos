@@ -38,23 +38,9 @@ if($('#938a81c2-5f0e-4d49-bc7b-6d80829e0c3c .InserCatImagePop', window.parent.do
 		5: [fotodir+"5/0", fotodir+"5/1", fotodir+"5/2", fotodir+"5/3"],
 	};
 
-/*
+
 	modalImage = {
 		0: [{src: url+folder+"0_0.svg"}, {src: url+folder+"0_1.svg"}, {src: url+folder+"0_2.svg"}, {src: url+folder+"0_3.svg"}],
-		1: {src: url+folder+"1.svg"},
-		2: {src: url+folder+"2.svg"},
-		3: {src: url+folder+"3.svg"},
-		4: {src: url+folder+"4.svg"},
-		5: {src: url+folder+"5.svg"}
-	}
-*/
-	modalImage = {
-		0:{
-			0: {src: url+folder+"0_0.svg"},
-			1: {src: url+folder+"0_1.svg"},
-			2: {src: url+folder+"0_2.svg"},
-			3: {src: url+folder+"0_3.svg"},
-		},
 		1: {src: url+folder+"1.svg"},
 		2: {src: url+folder+"2.svg"},
 		3: {src: url+folder+"3.svg"},
