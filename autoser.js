@@ -17,7 +17,7 @@ modalImage = {
 0: {src: url+"higiene.svg"},
 1: {src: url+"abarrote.svg"},
 2: {src: url+"limpieza.svg"},
-3: {src: url+"embt.jpg"},
+3: {src: url+"embt.svg"},
 }
 
 $('.widget-header-header-9 .x-el-nav a[href*="facebook.com/"]:first-child',window.parent.document).text('');
