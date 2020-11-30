@@ -74,7 +74,9 @@ $(".InserCatImagePop", window.parent.document).each(function(y, t) {
 		})
 	}
 });
-
+$('.b .sppb-btn', window.parent.document).click(function(k) { k.preventDefault();
+    $(k.currentTarget).closest('.c').siblings('.wrappinner').find('.galeripek').trigger('click');
+});	
 if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).length < 1)
 {
 	$('.widget-gallery-gallery-3 #bs-3',window.parent.document).ready(function($) {
