@@ -76,7 +76,7 @@ $(".InserCatImagePop", window.parent.document).each(function(y, t) {
 });
 $('.b .sppb-btn', window.parent.document).click(function(k) { k.preventDefault();
     $(k.currentTarget).closest('.c').siblings('.wrappinner').find('.galeripek').trigger('click');
-});	
+});
 if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).length < 1)
 {
 	$('.widget-gallery-gallery-3 #bs-3',window.parent.document).ready(function($) {
@@ -87,6 +87,9 @@ if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).lengt
 	});
 }else{
 	console.log('widget3:', $('.widget-introduction-introduction-1 #bs-3', window.parent.document));
+}
+if ($('widget-content-content-3 #insertIm', window.parent.document).length < 1){
+$('.widget-content-content-3 [data-ux="GridCell"]:first-child [data-ux="ContentCard"]', window.parent.document).children().first().before('<div id="insertIm" data-ux="ContentCardWrapperImage" class="x-el x-el-div c1-1 c1-2 c1-2e c1-x c1-y c1-2n c1-b c1-c c1-d c1-e c1-f c1-g"><span data-ux=Element class="x-el x-el-span c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><img data-ux="Image" class="x-el x-el-img c1-1 c1-2 c1-11 c1-2v c1-x c1-y c1-1c c1-1e c1-30 c1-b c1-c c1-84 c1-d c1-e c1-f c1-g" src=//img1.wsimg.com/isteam/ip/8c8d2569-664c-4b65-afe4-6f68234dd79f/w6.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:194,cg:true /></span></div>');
 }
 
 console.log('fainal jquery');
