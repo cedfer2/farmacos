@@ -21,7 +21,7 @@
 .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"],
 .widget-contact-contact-9 .whatsCentro p:first-child,
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_HOURS_TITLE_REND],
-.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_ADDRESS_REND]+[data-ux=ContentText],
+.widget-contact-contact-9 .innerTel,
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_BIZ_NAME_REND]{
 	font-family:Bree Serif,serif; color:#F20E16; margin-bottom:2px; font-size:1.2rem; text-transform:uppercase
 }
