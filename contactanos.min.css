@@ -30,6 +30,10 @@
 .widget-contact-contact-9 .whatsCentro,
 .widget-contact-contact-9 .innerTel [data-ux="Link"],
 .widget-contact-contact-9 .innerTel p,
+.widget-contact-contact-9 .ddirCentro [data-aid="CONTACT_INFO_ADDRESS_REND"],
+.widget-contact-contact-9 [data-aid="CONTACT_HOURS_COLLAPSED_LABEL"],
+.widget-contact-contact-9 [data-aid="CONTACT_HOURS_COLLAPSED_HR_LABEL"],
+.widget-contact-contact-9 .whatsCentro p,
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=ContentText] [data-ux=Link]{font-family:Roboto;font-weight:500;color:#4A4949}
 
 .widget-contact-contact-9 .whatsCentro p:first-child:before, .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE1_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_BIZ_NAME_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE2_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_HOURS_TITLE_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"]:before,
