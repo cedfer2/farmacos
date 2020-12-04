@@ -33,7 +33,7 @@
 .widget-contact-contact-9 .ddirCentro [data-aid="CONTACT_INFO_ADDRESS_REND"],
 .widget-contact-contact-9 [data-aid="CONTACT_HOURS_COLLAPSED_LABEL"],
 .widget-contact-contact-9 [data-aid="CONTACT_HOURS_COLLAPSED_HR_LABEL"],
-.widget-contact-contact-9:first-child [data-aid="CONTACT_HOURS_COLLAPSED_REND"]:after
+.widget-contact-contact-9:first-child [data-aid="CONTACT_HOURS_COLLAPSED_REND"]:after,
 .widget-contact-contact-9 .whatsCentro p,
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=ContentText] [data-ux=Link]{font-family:Roboto;font-weight:500;color:#4A4949}
 
