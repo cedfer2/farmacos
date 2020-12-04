@@ -31,10 +31,17 @@
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-typography=BodyAlpha],
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=ContentText] [data-ux=Link]{font-family:Roboto;font-weight:500;color:#4A4949}
 
-.widget-contact-contact-9 .whatsCentro p:first-child:before, .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE1_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_BIZ_NAME_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE2_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_HOURS_TITLE_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_ADDRESS_REND]+[data-ux=ContentText]:before{font-family:'FontAwesome';margin-right:15px}
+.widget-contact-contact-9 .whatsCentro p:first-child:before, .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE1_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_BIZ_NAME_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE2_RENDERED"]:before,.widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_HOURS_TITLE_REND]:before,.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"]:before,
+.widget-contact-contact-9 .innerTel:before
+{font-family:'FontAwesome';margin-right:15px}
+
+
 .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE1_RENDERED"]:before, .widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_BIZ_NAME_REND]:before{content:"\f041"}
 .widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE2_RENDERED"]:before, .widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_HOURS_TITLE_REND]:before{content:"\f017"}
-.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"]:before, .widget-contact-contact-9 [data-ux=SplitLayout] [data-aid=CONTACT_INFO_ADDRESS_REND]+[data-ux=ContentText]:before{content:"\f095"}
+.widget-content-content-3 [data-ux="ContentCard"] [data-aid="CONTENT_HEADLINE3_RENDERED"]:before,
+.widget-contact-contact-9 .innerTel:before
+{content:"\f095"}
+
 .widget-contact-contact-9 .whatsCentro p:first-child:before { content: "\f232"; }
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=Grid] [data-ux=GridCell]:last-child [data-ux=Block] span{height:160px;margin-top:200px;display:block}
 .widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=Grid] [data-ux=GridCell]:first-child,.widget-contact-contact-9 [data-ux=SplitLayout] [data-ux=Grid] [data-ux=GridCell]:last-child [data-ux=Block] span{border-left:solid 2px #D1D1D1!important}
