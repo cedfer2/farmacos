@@ -299,6 +299,16 @@
     color: #4D4D4D;
 }
 
+@media (max-width:992px)
+{
+    .widget-content-content-1 [data-aid="CONTENT_IMAGE1_RENDERED"]
+    {
+        max-height: 180px;
+        width: auto;
+    }
+}
+
+
 @media (min-width:768px)
 {
     
@@ -319,6 +329,10 @@
 
 @media (max-width:766px)
 {
+    .widget-content-content-9 [data-ux="ContentCards"] > [data-ux="GridCell"]
+    {
+        max-width: 100% !important;
+    }
     .widget-footer-footer-1
     {
         background-color: #F3F3F3;
