@@ -1,4 +1,4 @@
-var script = document.createElement("script");
+var script = window.parent.document.createElement("script");
 script.type="text/javascript";
 script.crossorigin="anonymous";
 script.src="https://polyfill.io/v3/polyfill.js";
