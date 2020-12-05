@@ -306,6 +306,11 @@
         max-height: 180px;
         width: auto;
     }
+    .galeripek [data-ux="Image"]
+    {
+        max-width: 150px !important;
+        height: auto;
+    }
 }
 
 
