@@ -6,9 +6,9 @@ script.src=src;
 window.parent.document.getElementsByTagName('head')[0].prepend(script);
 window.console.log('inse', src);
 }
-InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
 InjeectDepend("https://polyfill.io/v3/polyfill.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
+InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
 
 (function($){
 	$(document).ready(function() {
