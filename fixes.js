@@ -2,7 +2,7 @@ var script = document.createElement("script");
 script.type="text/javascript";
 script.crossorigin="anonymous";
 script.src="https://polyfill.io/v3/polyfill.js";
-document.getElementsByTagName('head')[0].prepend(script);
+window.parent.document.getElementsByTagName('head')[0].prepend(script);
 
 (function($){
 	$(document).ready(function() {
