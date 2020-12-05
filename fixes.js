@@ -1,8 +1,13 @@
+function InjeectDepend(src){
 var script = window.parent.document.createElement("script");
 script.type="text/javascript";
 script.crossorigin="anonymous";
-script.src="https://polyfill.io/v3/polyfill.js";
+script.src=src;
 window.parent.document.getElementsByTagName('head')[0].prepend(script);
+window.console.log('inse', src);
+}
+InjeectDepend("https://polyfill.io/v3/polyfill.js");
+InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 
 (function($){
 	$(document).ready(function() {
