@@ -1,5 +1,5 @@
 (function($){
-	$(document).load(function() {
+	$(document).ready(function() {
 		if ($('.polyfi', window.parent.document).length<1)
 		{
 			$('head', window.parent.document).prepend('<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.js"></script></script>');
