@@ -86,6 +86,7 @@ $('.b .sppb-btn', window.parent.document).click(function(k) { k.preventDefault()
 });
 if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).length < 1)
 {
+$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child [data-ux="Block"]', window.parent.document).remove();
 $('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document).prepend("<div id=#bs-3 class='slider theme1' />");
 $(items).each(function(index, el) {
 $('.slider', window.parent.document).append('<div><img src="'+url+filderSlider+el+'"/> </div>');	
