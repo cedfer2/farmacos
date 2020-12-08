@@ -50,21 +50,20 @@
     display: inline-block;
 }
 
-.sppb-btn
+.slick-slider .sppb-btn
 {
  padding: 6px 12px;
  opacity: 0.4;
 }
 
 
-.sppb-btn-link
+.slick-slider .sppb-btn-link
 {
  background: #000;
  color: #fff;    
 }
 
-
-.sppb-btn:hover
+.slick-slider .sppb-btn:hover
 {
     opacity: 0.8
 }
