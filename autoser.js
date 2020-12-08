@@ -1,6 +1,8 @@
 (function($) {
 console.log('loaded jQuery');
 var url = "https://cedfer2.github.io/farmacos/";
+var filderSlider = "servDiapos/";
+var items = ['IMG_0996_2.jpg','IMG_1000.jpg','IMG_1004.jpg','IMG_1005.jpg','IMG_1007.jpg','IMG_1011.jpg','IMG_1041.jpg','IMG_1057.jpg','IMG_1125.jpg','IMG_1133.jpg'];
 var folder ="medicamentos/";
 var fotodir ="medi/";
 var img = [];
@@ -84,12 +86,22 @@ $('.b .sppb-btn', window.parent.document).click(function(k) { k.preventDefault()
 });
 if ($('.widget-introduction-introduction-1 #bs-3', window.parent.document).length < 1)
 {
-	$('.widget-gallery-gallery-3 #bs-3',window.parent.document).ready(function($) {
-		$('.widget-gallery-gallery-3 #bs-3', window.parent.document).appendTo($('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document));
-		$('#bs-3 .carousel-track', window.parent.document).removeAttr('style');
-		$('#bs-3 [data-ux="CarouselButtonPrevious"]', window.parent.document).trigger('click');
-		$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child, .widget-gallery-gallery-3', window.parent.document).children('[data-ux="Block"]:first-child').hide();
-	});
+$('.widget-introduction-introduction-1 [data-ux="GridCell"]:first-child', window.parent.document).prepend("<div id=#bs-3 class='slider theme1' />");
+$(items).each(function(index, el) {
+$('.slider', window.parent.document).append('<div><img src="'+url+filderSlider+el+'"/> </div>');	
+});
+$('.slider', window.parent.document).slick({ arrows: true, dots: false, touchMove: true, infinite: true, fade: true, cssEase: 'linear', slidesToShow: 1, slidesToScroll: 1, autoplay: true,
+  prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-2x fa-angle-left' aria-hidden='true'></i></button>",
+  nextArrow:"<a role='button' class='slick-next pull-right sppb-btn sppb-btn-link'><i class='fa fa-2x fa-angle-right' aria-hidden='true'></i></button>",
+  customPaging: function(slider, i) { return "<a role='button' class='paging sppb-btn sppb-btn-flat'>" + "<i class='faIndic fa fa-lg'></i></button>"; }
+});
+$(window).resize(function () {
+	$('.slider', window.parent.document).not('.slick-initialized').slick('resize');
+}).on('orientationchange', function () {
+    $('.js-slider', window.parent.document).not('.slick-initialized').slick('resize');
+});
+
+
 }else{
 	console.log('widget3:', $('.widget-introduction-introduction-1 #bs-3', window.parent.document));
 }
