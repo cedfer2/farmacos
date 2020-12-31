@@ -10,8 +10,8 @@ $(items).each(function(index, el) {
 $('.slider', window.parent.document).append('<object type="image/svg+xml" data="'+url+el+'"/> </div>');
 });
 $('.slider', window.parent.document).slick({ arrows: true, dots: true, touchMove: true, infinite: true, fade: true, cssEase: 'linear', slidesToShow: 1, slidesToScroll: 1, autoplay: true,
-  prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-3x fa-angle-left' aria-hidden='true'></i></button>",
-  nextArrow:"<a role='button' class='slick-next pull-right sppb-btn sppb-btn-link'><i class='fa fa-3x fa-angle-right' aria-hidden='true'></i></button>",
+  prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-3x fa-chevron-left' aria-hidden='true'></i></button>",
+  nextArrow:"<a role='button' class='slick-next pull-right sppb-btn sppb-btn-link'><i class='fa fa-3x fa-chevron-right' aria-hidden='true'></i></button>",
   customPaging: function(slider, i) { return "<a role='button' class='paging sppb-btn sppb-btn-flat'>" + "<i class='faIndic fa fa-lg'></i></button>"; }
 });
 $(window).resize(function () {
