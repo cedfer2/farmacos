@@ -2,7 +2,7 @@
 console.log('loaded jQuery');
 var url = "https://cedfer2.github.io/farmacos/";
 var filderSlider = "servDiapos/";
-var items = ['IMG_0996_2.jpg','IMG_1000.jpg','IMG_1004.jpg','IMG_1005.jpg','IMG_1007.jpg','IMG_1011.jpg','IMG_1041.jpg','IMG_1057.jpg','IMG_1125.jpg','IMG_1133.jpg'];
+var items = ['26.jpg','27.jpg','28.jpg','29.jpg','30.jpg'];
 var folder ="medicamentos/";
 var fotodir ="medi/";
 var img = [];
