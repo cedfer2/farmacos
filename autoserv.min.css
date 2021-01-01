@@ -123,6 +123,7 @@
 .widget-content-content-11 [data-ux="Container"] [data-ux="Image"]
 {
     width: 100%;
+    padding: 0px;
 }
 
 [id="35d7b569-2f3f-4106-93b5-c9a121c1927a"] [data-ux="Section"]
