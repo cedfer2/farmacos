@@ -10,9 +10,11 @@
 .widget-content-content-9 [data-ux=ContentCard]{margin-bottom:14px}
 
 .widget-content-content-9 [data-ux=ContentCardWrapperImage]{width:245px;margin-bottom:30px!important; margin-top: 30px;}
-[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:first-child [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height:180px; content:url('https://cedfer2.github.io/farmacos/higPer.svg')}
-[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:nth-child(2) [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height: 180px; content:url('https://cedfer2.github.io/farmacos/Abb.svg')}
-[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:nth-child(3) [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height: 180px;content:url('https://cedfer2.github.io/farmacos/limp.svg')}
+[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:first-child [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height:150px; content:url('https://cedfer2.github.io/farmacos/higPer.svg')}
+[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:nth-child(2) [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height: 150px; content:url('https://cedfer2.github.io/farmacos/Abb.svg')}
+[id=f3debd43-7451-4d00-8ba7-80cea5303013] [data-ux=GridCell]:nth-child(3) [data-ux=ContentCardWrapperImage] [data-ux=Image]{max-height: 150px;content:url('https://cedfer2.github.io/farmacos/limp.svg')}
+[id="9ed231d9-9989-40b5-b5cc-ca0f6668e16a"] [data-ux=GridCell] [alt="image859"]{max-height: 150px;content:url('https://cedfer2.github.io/farmacos/ccremfr.svg')}
+
 .widget-content-content-9 [data-ux=ContentCardButton]{pointer-events:none}
 .widget-content-content-9 [data-ux=ContentCard] [data-ux=ContentCardText]{-webkit-box-ordinal-group:4;-webkit-order:3;-moz-box-ordinal-group:4;-ms-flex-order:3;order:3;color:#333333;font-family:Roboto;font-weight:300;font-size:1.2rem;}
 .widget-content-content-9 [data-ux=ContentCard]>[data-ux=Block]:first-child{-webkit-box-ordinal-group:2;-webkit-order:1;-moz-box-ordinal-group:2;-ms-flex-order:1;order:1}
