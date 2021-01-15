@@ -1,7 +1,7 @@
 (function($){
 	$("body", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/helbeticaBQ.css"/><link href="https://fonts.googleapis.com/css2?family=Roboto&family=Bree+Serif&display=swap" rel="stylesheet"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick-theme.css"><link rel="stylesheet" type=text/css href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/animate.min.css"/><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/foter.min.css"/><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/inicio.min.css"/>');
 var url = "https://cedfer2.github.io/farmacos/inicio/";
-var items = ['banner1.svg','banner2.svg','banner4.svg'];
+var items = ['banner1.jpg','banner2.jpg','banner4.jpg'];
 if ($('.widget-header-header-9 [data-ux="HeaderMedia"] .slider', window.parent.document).length < 1)
 {
 $('.widget-header-header-9 [data-ux="HeaderMedia"]', window.parent.document).empty().prepend("<div id=#bs-3 class='slider theme1' />");
