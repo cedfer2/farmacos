@@ -6,8 +6,8 @@ if ($('.widget-header-header-9 [data-ux="HeaderMedia"] .slider', window.parent.d
 {
 $('.widget-header-header-9 [data-ux="HeaderMedia"]', window.parent.document).empty().prepend("<div id=#bs-3 class='slider theme1' />");
 $(items).each(function(index, el) {
-/*$('.slider', window.parent.document).append('<div><img src="'+url+el+'"/> </div>');*/
-$('.slider', window.parent.document).append('<object type="image/svg+xml" data="'+url+el+'"/> </div>');
+$('.slider', window.parent.document).append('<div><img class="imgSliItem" src="'+url+el+'"/> </div>');
+/*$('.slider', window.parent.document).append('<object type="image/svg+xml" data="'+url+el+'"/> </div>');*/
 });
 $('.slider', window.parent.document).slick({ arrows: true, dots: true, touchMove: true, infinite: true, fade: true, cssEase: 'linear', slidesToShow: 1, slidesToScroll: 1, autoplay: true,
   prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-2x fa-chevron-left' aria-hidden='true'></i></button>",
