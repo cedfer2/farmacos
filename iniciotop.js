@@ -4,7 +4,7 @@ var url = "https://cedfer2.github.io/farmacos/inicio/";
 var items = ['banner1.webp','banner2.jpg','banner4.jpg'];
 if ($('.widget-header-header-9 [data-ux="HeaderMedia"] .slider', window.parent.document).length < 1)
 {
-$('.widget-header-header-9 [data-ux="HeaderMedia"]', window.parent.document).empty().prepend("<div id=#bs-3 class='slider theme1' />");
+$('.widget-header-header-9', window.parent.document).after("<div id=#bs-3 class='slider theme1'></div>");
 $(items).each(function(index, el) {
 $('.slider', window.parent.document).append('<div><img class="imgSliItem" src="'+url+el+'"/> </div>');
 /*$('.slider', window.parent.document).append('<object type="image/svg+xml" data="'+url+el+'"/> </div>');*/
