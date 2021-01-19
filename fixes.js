@@ -6,9 +6,10 @@ script.src=src;
 window.parent.document.getElementsByTagName('head')[0].prepend(script);
 window.console.log('inse', src);
 }
+/*
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
-
+*/
 (function($){
 	$(document).ready(function() {
 		$('head').prepend('<meta http-equiv="Content-Security-Policy" content="default-src self; img-src https://*; child-src none;">');
