@@ -9,6 +9,7 @@ window.console.log('inse', src);
 /*
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
+InjeectDepend("https://cedfer2.github.io/farmacos/addEventListener-polyfill.js");
 */
 (function($){
 	$(document).ready(function() {
