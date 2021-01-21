@@ -8,5 +8,5 @@ $(document).load(function(){
     $(items).each(function(index, el) { $('.slider', window.parent.document).append('<div><img class="imgSliItem" src="'+url+el+'"/> </div>'); });
     $('.slider', window.parent.document).slick({ arrows: true, dots: true, touchMove: true, infinite: true, fade: true, cssEase: 'linear', slidesToShow: 1, slidesToScroll: 1, autoplay: true, prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-2x fa-chevron-left' aria-hidden='true'></i></button>", nextArrow:"<a role='button' class='slick-next pull-right sppb-btn sppb-btn-link'><i class='fa fa-2x fa-chevron-right' aria-hidden='true'></i></button>", customPaging: function(slider, i) { return "<a role='button' class='paging sppb-btn sppb-btn-flat'>" + "<i class='faIndic fa fa-lg'></i></button>"; } });
     $(window).resize(function () { $('.slider', window.parent.document).not('.slick-initialized').slick('resize'); }).on('orientationchange', function () { $('.js-slider', window.parent.document).not('.slick-initialized').slick('resize');});
-  }else{ console.log('slick:', $('.slider', window.parent.document)); } });
+  }else{ console.log('slick err'); } });
 })(jQuery);
