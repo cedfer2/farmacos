@@ -5,8 +5,14 @@ $(document).load(function(){
   var items = ['banner1.webp','banner2.jpg','banner4.jpg'];
   if ($('.slider', window.parent.document).length < 1){
     $('.widget-header-header-9', window.parent.document).after("<div id=#bs-3 class='slider theme1' ></div>");
-    $(items).each(function(index, el) { $('.slider', window.parent.document).append('<div><img class="imgSliItem" src="'+url+el+'"/> </div>'); });
+    $(items).each(function(index, el) {
+      $('.slider', window.parent.document).append('<div><img class="imgSliItem" src="'+url+el+'"/> </div>');
+    });
     $('.slider', window.parent.document).slick({ arrows: true, dots: true, touchMove: true, infinite: true, fade: true, cssEase: 'linear', slidesToShow: 1, slidesToScroll: 1, autoplay: true, prevArrow:"<a role='button' class='slick-prev pull-left sppb-btn sppb-btn-link '><i class='fa fa-2x fa-chevron-left' aria-hidden='true'></i></button>", nextArrow:"<a role='button' class='slick-next pull-right sppb-btn sppb-btn-link'><i class='fa fa-2x fa-chevron-right' aria-hidden='true'></i></button>", customPaging: function(slider, i) { return "<a role='button' class='paging sppb-btn sppb-btn-flat'>" + "<i class='faIndic fa fa-lg'></i></button>"; } });
-    $(window).resize(function () { $('.slider', window.parent.document).not('.slick-initialized').slick('resize'); }).on('orientationchange', function () { $('.js-slider', window.parent.document).not('.slick-initialized').slick('resize');});
-  }else{ console.log('slick err'); } });
+    $(window).resize(function () {
+      $('.slider', window.parent.document).not('.slick-initialized').slick('resize');
+    }).on('orientationchange', function () { 
+      $('.js-slider', window.parent.document).not('.slick-initialized').slick('resize');
+    });
+  }else{ console.log('slick:', $('.slider', window.parent.document)); } });
 })(jQuery);
