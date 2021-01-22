@@ -1,8 +1,9 @@
+/*
 var meta= window.parent.document.createElement("meta");
 meta.httpEquiv="Content-Security-Policy";
 meta.content="default-src self; img-src https://*; child-src none;";
 window.parent.document.getElementsByTagName('head')[0].prepend(meta);
-
+*/
 function InjeectDepend(src){ var script = window.parent.document.createElement("script"); script.type="text/javascript"; script.crossorigin="anonymous"; script.src=src; window.parent.document.getElementsByTagName('head')[0].prepend(script); window.console.log('inse', src);}
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
