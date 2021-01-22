@@ -6,11 +6,10 @@ script.src=src;
 window.parent.document.getElementsByTagName('head')[0].prepend(script);
 window.console.log('inse', src);
 }
-/*
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/addEventListener-polyfill.js");
-*/
+/*
 (function($){
 	$(document).ready(function() {
 		$('head').prepend('<meta http-equiv="Content-Security-Policy" content="default-src self; img-src https://*; child-src none;">');
@@ -20,3 +19,16 @@ InjeectDepend("https://cedfer2.github.io/farmacos/addEventListener-polyfill.js")
 console.log('fixer remover');
 	});
 })(jQuery);
+*/
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}
+docReady(function() {
+    console.log("DOM is loaded and ready for manipulation here");
+});
