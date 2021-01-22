@@ -1,3 +1,8 @@
+var meta= window.parent.document.createElement("meta");
+meta.httpEquiv="Content-Security-Policy";
+meta.content="default-src self; img-src https://*; child-src none;";
+window.parent.document.getElementsByTagName('head')[0].prepend(meta);
+
 function InjeectDepend(src){
 var script = window.parent.document.createElement("script");
 script.type="text/javascript";
@@ -9,26 +14,10 @@ window.console.log('inse', src);
 InjeectDepend("https://cedfer2.github.io/farmacos/polyfill-ie11-nodelist-foreach.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/querySelectorpolyfill.js");
 InjeectDepend("https://cedfer2.github.io/farmacos/addEventListener-polyfill.js");
-/*
-(function($){
-	$(document).ready(function() {
-		$('head').prepend('<meta http-equiv="Content-Security-Policy" content="default-src self; img-src https://*; child-src none;">');
-		$('.widget-header-header-9 .x-el-nav a[href*="facebook.com/"]:first-child, [data-page="376f0a25-ff0d-4a94-941c-9505a56f1068"]',window.parent.document).text('');
-		$('.widget-header [data-aid="HAMBURGER_MENU_LINK"]', window.parent.document).click(function(){$('[data-ux="NavigationDrawer"]', window.parent.document).toggleClass('Sandshow');});
-		$('.widget-header [data-ux="CloseIcon"]', window.parent.document).click(function(){$('[data-ux="NavigationDrawer"]', window.parent.document).removeClass('Sandshow');});
-console.log('fixer remover');
-	});
-})(jQuery);
-*/
-function docReady(fn) {
-    // see if DOM is already available
-    if (document.readyState === "complete" || document.readyState === "interactive") {
-        // call on next available tick
-        setTimeout(fn, 1);
-    } else {
-        document.addEventListener("DOMContentLoaded", fn);
-    }
-}
+function docReady(fn) { if (document.readyState === "complete" || document.readyState === "interactive") { setTimeout(fn, 1); } else { document.addEventListener("DOMContentLoaded", fn); }}
 docReady(function() {
-    console.log("DOM is loaded and ready for manipulation here");
+window.parent.document.querySelectorAll('.widget-header-header-9 .x-el-nav a[href*="facebook.com/"]:first-child, [data-page="376f0a25-ff0d-4a94-941c-9505a56f1068"]').forEach(element => { element.innerHTML = "" });
+window.parent.document.querySelector('.widget-header [data-aid="HAMBURGER_MENU_LINK"]').addEventListener('click',function(){  window.parent.document.querySelector('[data-ux="NavigationDrawer"]').classList.toggle('Sandshow'); console.log('SandWid click opender'); });
+window.parent.document.querySelector('.widget-header [data-ux="CloseIcon"]').addEventListener('click',function(){  window.parent.document.querySelector('[data-ux="NavigationDrawer"]').classList.remove('Sandshow'); console.log('SandWid click remover'); });
+console.log("DOM is loaded and ready for manipulation here");
 });
