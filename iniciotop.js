@@ -2,10 +2,9 @@
     var url = "https://cedfer2.github.io/farmacos/inicio/";
     var items = ['banner1.webp','banner2.jpg','banner4.jpg'];
     $(window).on("load", function(){
+    $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&family=Bree+Serif&display=swap"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick-theme.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/fuentes/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/animate.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/foter.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/inicio.min.css">');
      window.console.log("load event jquery");
     });
-    
-    $("head", window.parent.document).append('<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&family=Bree+Serif&display=swap"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/slick-theme.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/fuentes/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/animate.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/foter.min.css"><link rel="stylesheet" type="text/css" href="https://cedfer2.github.io/farmacos/inicio.min.css">');
     if ($('.slider', window.parent.document).length < 1){
       $('.widget-header-header-9', window.parent.document).after("<div id=#bs-3 class='slider theme1'></div>");
       $(items).each(function(index, el) {
