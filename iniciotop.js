@@ -17,5 +17,5 @@
       $('.js-slider', window.parent.document).not('.slick-initialized').slick('resize');
     });
   }else{ console.log('slick: err'); }
-  alert('change scripts');
+  window.alert('change scripts');
 })(jQuery);
